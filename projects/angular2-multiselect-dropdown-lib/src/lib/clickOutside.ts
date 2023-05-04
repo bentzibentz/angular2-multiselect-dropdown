@@ -28,6 +28,7 @@ export class ClickOutsideDirective {
     selector: '[scroll]'
 })
 export class ScrollDirective {
+  // tslint:disable-next-line:variable-name
     constructor(private _elementRef: ElementRef) {
     }
 
@@ -42,6 +43,7 @@ export class ScrollDirective {
 @Directive({
     selector: '[styleProp]'
 })
+// tslint:disable-next-line:class-name
 export class styleDirective {
 
     constructor(private el: ElementRef) {
@@ -63,6 +65,7 @@ export class styleDirective {
 @Directive({
     selector: '[setPosition]'
 })
+// tslint:disable-next-line:class-name
 export class setPosition implements OnInit, OnChanges {
 
     @Input('setPosition') height: number;

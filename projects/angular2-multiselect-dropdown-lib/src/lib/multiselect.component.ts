@@ -1,4 +1,22 @@
-import { Component, OnInit, HostListener, ChangeDetectionStrategy, OnDestroy, NgModule, SimpleChanges, OnChanges, ChangeDetectorRef, AfterViewChecked, ViewEncapsulation, ContentChild, ViewChild, forwardRef, Input, Output, EventEmitter, ElementRef, AfterViewInit, Pipe, PipeTransform } from '@angular/core';
+import {
+  Component,
+  OnInit,
+  HostListener,
+  OnDestroy,
+  NgModule,
+  SimpleChanges,
+  OnChanges,
+  ChangeDetectorRef,
+  AfterViewChecked,
+  ViewEncapsulation,
+  ContentChild,
+  ViewChild,
+  forwardRef,
+  Input,
+  Output,
+  EventEmitter,
+  ElementRef
+} from '@angular/core';
 import { FormsModule, NG_VALUE_ACCESSOR, ControlValueAccessor, NG_VALIDATORS, Validator, UntypedFormControl } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { MyException } from './multiselect.model';
@@ -9,7 +27,7 @@ import { Item, Badge, Search, TemplateRenderer, CIcon } from './menu-item';
 import { DataService } from './multiselect.service';
 import { Subscription, Subject } from 'rxjs';
 import { VirtualScrollerModule, VirtualScrollerComponent } from './virtual-scroll/virtual-scroll';
-import { map, debounceTime, distinctUntilChanged, switchMap, tap } from 'rxjs/operators';
+import { debounceTime, distinctUntilChanged, tap } from 'rxjs/operators';
 
 export const DROPDOWN_CONTROL_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,
@@ -91,14 +109,14 @@ export class AngularMultiSelect implements OnInit, ControlValueAccessor, OnChang
     @ViewChild('cuppaDropdown', { static: false }) cuppaDropdown: ElementRef;
 
     @HostListener('document:keyup.escape', ['$event'])
-    onEscapeDown(event: KeyboardEvent) {
+    onEscapeDown(event: KeyboardEvent): void {
         if (this.settings.escapeToClose) {
             this.closeDropdown();
         }
     }
 
     @HostListener('window:scroll', ['$event'])
-    onScroll(event: any) {
+    onScroll(event: any): void {
         if (this.isActive && this.settings.tagToBody) {
             this.closeDropdown();
             /*             const elem = this.cuppaDropdown.nativeElement;
@@ -109,7 +127,7 @@ export class AngularMultiSelect implements OnInit, ControlValueAccessor, OnChang
         }
     }
 
-    virtualdata: any = [];
+    pubvirtualdata: any = [];
     searchTerm$ = new Subject<string>();
 
     public selectedItems: Array<any>;
@@ -144,7 +162,8 @@ export class AngularMultiSelect implements OnInit, ControlValueAccessor, OnChang
     public dropDownTop: any = '';
     public dropDownBottom: any = 'unset';
     public dropDownLeft: number = 0;
-    public id: any = Math.random().toString(36).substring(2)
+    public id: any = Math.random().toString(36).substring(2);
+    public virtualdata: any;
     defaultSettings: DropdownSettings = {
         singleSelection: false,
         text: 'Select',

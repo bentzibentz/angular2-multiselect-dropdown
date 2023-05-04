@@ -8,7 +8,7 @@ export class DataService {
   filteredData: any = [];
   private subject = new Subject<any>();
 
-  setData(data: any) {
+  setData(data: any): void {
 
     this.filteredData = data;
     this.subject.next(data);
@@ -16,7 +16,7 @@ export class DataService {
   getData(): Observable<any> {
     return this.subject.asObservable();
   }
-  getFilteredData() {
+  getFilteredData(): any {
     if (this.filteredData && this.filteredData.length > 0) {
       return this.filteredData;
     }

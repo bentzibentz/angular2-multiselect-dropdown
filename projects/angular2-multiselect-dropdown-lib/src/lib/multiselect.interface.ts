@@ -31,4 +31,4 @@ export interface DropdownSettings{
     autoPosition?: boolean;
     clearAll?: boolean;
     tagToBody?: boolean;
-} 
+}
