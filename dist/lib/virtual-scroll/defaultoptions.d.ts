@@ -9,3 +9,4 @@ export interface VirtualScrollerDefaultOptions {
     modifyOverflowStyleOfParentScroll: boolean;
     stripedTable: boolean;
 }
+//# sourceMappingURL=defaultoptions.d.ts.map

@@ -32,3 +32,4 @@ export interface DropdownSettings {
     clearAll?: boolean;
     tagToBody?: boolean;
 }
+//# sourceMappingURL=multiselect.interface.d.ts.map

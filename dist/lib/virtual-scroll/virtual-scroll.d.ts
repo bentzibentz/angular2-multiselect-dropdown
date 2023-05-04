@@ -130,3 +130,4 @@ export declare class VirtualScrollerModule {
     static ɵmod: i0.ɵɵNgModuleDeclaration<VirtualScrollerModule, [typeof VirtualScrollerComponent], [typeof i1.CommonModule], [typeof VirtualScrollerComponent]>;
     static ɵinj: i0.ɵɵInjectorDeclaration<VirtualScrollerModule>;
 }
+//# sourceMappingURL=virtual-scroll.d.ts.map

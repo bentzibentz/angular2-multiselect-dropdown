@@ -10,3 +10,4 @@ export declare class ListFilterPipe implements PipeTransform {
     static ɵfac: i0.ɵɵFactoryDeclaration<ListFilterPipe, never>;
     static ɵpipe: i0.ɵɵPipeDeclaration<ListFilterPipe, "listFilter", false>;
 }
+//# sourceMappingURL=list-filter.d.ts.map

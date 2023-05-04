@@ -34,3 +34,4 @@ export declare class setPosition implements OnInit, OnChanges {
     static ɵfac: i0.ɵɵFactoryDeclaration<setPosition, never>;
     static ɵdir: i0.ɵɵDirectiveDeclaration<setPosition, "[setPosition]", never, { "height": "setPosition"; }, {}, never, never, false, never>;
 }
+//# sourceMappingURL=clickOutside.d.ts.map

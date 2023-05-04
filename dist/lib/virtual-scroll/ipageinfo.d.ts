@@ -7,3 +7,4 @@ export interface IPageInfo {
     endIndexWithBuffer: number;
     maxScrollPosition: number;
 }
+//# sourceMappingURL=ipageinfo.d.ts.map

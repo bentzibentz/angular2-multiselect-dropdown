@@ -3,3 +3,4 @@ export declare class MyException {
     body: any;
     constructor(status: number, body: any);
 }
+//# sourceMappingURL=multiselect.model.d.ts.map

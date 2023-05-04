@@ -133,3 +133,4 @@ export declare class AngularMultiSelectModule {
     static ɵmod: i0.ɵɵNgModuleDeclaration<AngularMultiSelectModule, [typeof AngularMultiSelect, typeof i1.ClickOutsideDirective, typeof i1.ScrollDirective, typeof i1.styleDirective, typeof i2.ListFilterPipe, typeof i3.Item, typeof i3.TemplateRenderer, typeof i3.Badge, typeof i3.Search, typeof i1.setPosition, typeof i3.CIcon], [typeof i4.CommonModule, typeof i5.FormsModule, typeof i6.VirtualScrollerModule], [typeof AngularMultiSelect, typeof i1.ClickOutsideDirective, typeof i1.ScrollDirective, typeof i1.styleDirective, typeof i2.ListFilterPipe, typeof i3.Item, typeof i3.TemplateRenderer, typeof i3.Badge, typeof i3.Search, typeof i1.setPosition, typeof i3.CIcon]>;
     static ɵinj: i0.ɵɵInjectorDeclaration<AngularMultiSelectModule>;
 }
+//# sourceMappingURL=multiselect.component.d.ts.map

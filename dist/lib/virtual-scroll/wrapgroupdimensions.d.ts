@@ -5,3 +5,4 @@ export interface WrapGroupDimensions {
     sumOfKnownWrapGroupChildHeights: number;
     maxChildSizePerWrapGroup: WrapGroupDimension[];
 }
+//# sourceMappingURL=wrapgroupdimensions.d.ts.map

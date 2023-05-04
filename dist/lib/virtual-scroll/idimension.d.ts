@@ -10,3 +10,4 @@ export interface IDimensions {
     viewportLength: number;
     maxScrollPosition: number;
 }
+//# sourceMappingURL=idimension.d.ts.map

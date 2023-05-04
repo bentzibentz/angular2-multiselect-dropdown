@@ -9,3 +9,4 @@ export declare class DataService {
     static ɵfac: i0.ɵɵFactoryDeclaration<DataService, never>;
     static ɵprov: i0.ɵɵInjectableDeclaration<DataService>;
 }
+//# sourceMappingURL=multiselect.service.d.ts.map

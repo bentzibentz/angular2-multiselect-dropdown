@@ -4,3 +4,4 @@ export { ListFilterPipe } from './lib/list-filter';
 export { Item, Badge, Search, CIcon } from './lib/menu-item';
 export { TemplateRenderer } from './lib/menu-item';
 export { AngularMultiSelectModule } from './lib/multiselect.component';
+//# sourceMappingURL=public_api.d.ts.map

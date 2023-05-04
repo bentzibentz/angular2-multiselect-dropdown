@@ -34,3 +34,4 @@ export declare class CIcon {
     static ɵfac: i0.ɵɵFactoryDeclaration<CIcon, never>;
     static ɵcmp: i0.ɵɵComponentDeclaration<CIcon, "c-icon", never, { "name": "name"; }, {}, never, never, false, never>;
 }
+//# sourceMappingURL=menu-item.d.ts.map
